@@ -1,0 +1,40 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>XO Game</title>
+</head>
+<body>
+    <main class="main" id="main">
+        <h1>Welcome to XO Game!</h1>
+        <ul>
+            <li id="one-player">Player1 vs CPU</li>
+            <li id="two-player">Player1 vs Player2</li>
+        </ul>
+    </main>
+    <h4 id="notice">
+        Player1
+    </h4>
+    <div class="board" id="board">
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+        <div class="cell" data-cell></div>
+    </div>
+    <div class="winning-message" id="winningMessage">
+        <div data-warning-message></div>
+        <button id="restartButton">Restart</button>
+        <button id="quitButton">Quit</button>
+    </div>
+
+    <script src="index.js"></script>
+
+</body>
+</html>
